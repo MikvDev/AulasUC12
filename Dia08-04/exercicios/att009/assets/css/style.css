@@ -1,0 +1,10 @@
+a {
+  width: 200px;
+  background: gray;
+}
+
+.link-corrigido {
+    width: 200px;
+    background: gray;
+    display: inline-block;
+}

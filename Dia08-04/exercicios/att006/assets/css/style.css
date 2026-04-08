@@ -1,0 +1,10 @@
+.caixa-1,.caixa-2 {
+height: 80px;
+width: 150px;
+background-color: gray;
+}
+span {
+ width: 150px;
+ background-color: gray;
+}
+

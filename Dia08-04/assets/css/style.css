@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+div  {
+    width: 100px;
+    background-color: azure;
+    /* Tem display block como padrão; */
+    /* Mas.. 
+    podemos aplicar o display: inline;
+    */
+    display: inline;
+    display: inline-block;
+} 
+a {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: antiquewhite;
+
+    /* Não d apra colocar altura e largura  sem inline bloch!!! */
+        /* Consigo aplicar alyura e largura */
+
+}
+span {
+    display: none;
+}
+
+/*
+INLINE 
+Com o dispay inline não é possivel colocar altura ou largura! Os elementos podem ficar na mesma linha
+
+INLINE BLOCK
+Com o display inline block o elemneto podem ficar na mesma linha e é possivel mudar seu tamnaho
+
+BLOCK
+Ele ocupa toda a linha, apenas um elemento. Podemos mudar seu tamnho.
+
+
+*/

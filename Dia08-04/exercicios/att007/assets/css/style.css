@@ -1,0 +1,7 @@
+.caixa-1 {
+    background-color: aquamarine;
+    display: none;
+}
+.caixa-2  {
+    visibility: hidden;
+}

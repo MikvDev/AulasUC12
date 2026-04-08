@@ -1,0 +1,17 @@
+.card {
+ padding: 20px;
+ box-sizing: border-box;
+ width: 300px;
+ background-color:cornflowerblue; 
+ 
+
+}
+h2{
+ display: inline; 
+}
+button {
+  width: 100px;
+  margin-left: 20px;
+  
+}
+
