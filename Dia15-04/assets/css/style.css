@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--Font-1);
+}
+
+html {
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: 'Pix32';
+    src: url('/Dia15-04/assets/fonts/Pix32.ttf') format('truetype');
+    font-weight:normal;
+    font-style: normal;
+
+}
+
+:root{
+--Font-1: 'Pix32', sans-serif;
+ --color-primary: #a168f9;
+  --color-secondary: #9ec5e2;
+  --color-background: #fefbff;
+  --color-accent-1: #c8a4e9;
+  --color-accent-2: #f6c0f8;
+}
+
+
+
+#container-nav {
+    background-color: var(--color-background);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+#chapters{
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    
+}
+.book {
+    padding: 30px;
+    
+    border-radius: 5px;
+    box-shadow:  2px 2px 5px  var(--color-accent-1);
+    background-color: var(--color-background);
+}
+button {
+    margin-top: 30px;
+    padding: 10px;
+    color: #fefbff;
+    background-color: #000;
+    border: none;
+    border-radius: 0px;
+
+}
+html {
+    background-color: var(--color-background);
+}
+ul {
+    font-size: 20px;
+    
+}
+ul li {
+    list-style: none;
+    font-size: 1rem;
+    
+}
+
+ul {
+display: flex;
+gap: 30px;
+
+}
+
+p {
+    font-size: 1rem;
+    margin-top: 20px;
+    width: 300px;
+}
+
+h3 {
+    font-family: var(--Font-1);
+    margin-top: 20px;
+}
+/* Rem vem do html e em vem do elemento pai */
+/* Porcentagem vem sempre do tanho do pai */

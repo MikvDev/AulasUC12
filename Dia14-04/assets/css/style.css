@@ -48,6 +48,8 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    height: 20vh;
+    font-size: 20px;
 }
 
 ul {
@@ -71,9 +73,9 @@ ul li:last-child {
     background-color: var(--preto);
     padding: 40px;
     
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url("../images/banner.png");
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url("../images/Gemini_Generated_Image_6aa9p46aa9p46aa9.png");
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
@@ -85,15 +87,15 @@ ul li:last-child {
 }
 
 #container-banner p {
-    margin-top: 150px;
+    margin-top: 90px;
     font-size: 18px;
     color: var(--azul-claro);
     font-family:'Helvetica', sans-serif;
 }
 
 #container-banner button {
-    background-color: var(--vermelho-vivo);
-    color: var(--azul-claro);
+    background-color: var(--azul-claro);
+    color: var(--laranja-queimado);
     margin-top: 28px;
     padding: 10px;
     border: none;
