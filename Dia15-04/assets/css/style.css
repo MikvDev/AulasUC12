@@ -59,8 +59,10 @@ button {
     background-color: #000;
     border: none;
     border-radius: 0px;
+    cursor: pointer;
 
 }
+button:ho
 html {
     background-color: var(--color-background);
 }
