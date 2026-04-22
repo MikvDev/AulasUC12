@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Pix32';
+}
+
+
+@font-face{
+    font-family:'Pix32';
+    src:url('/Dia15-04/assets/fonts/Pix32.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+    :root{
+        -cor-grafite-profundo: #14233a;
+  --cor-cinza-escuro: #303843;
+  --cor-marrom-escuro: #3d3333;
+  --cor-marrom-terroso: #734c44;
+  --cor-cinza-azulado: #405273;
+  
+  /* Tons de Marrom e Terracota */
+  --cor-vinho-suave: #593e47;
+  --cor-rosado-queimado: #7a5859;
+  --cor-terracota: #b55945;
+  --cor-madeira: #a57855;
+  --cor-pedra: #636663;
+  --cor-concreto: #87857c;
+  --cor-areia: #bcad9f;
+
+  /* Tons de Laranja, Amarelo e Creme */
+  --cor-laranja-vibrante: #eb9661;
+  --cor-laranja-suave: #f2b888;
+  --cor-dourado: #de9f47;
+  --cor-amarelo-sol: #fdd179;
+  --cor-creme-claro: #fee1b8;
+  --cor-palha: #d4c692;
+
+  /* Tons de Verde */
+  --cor-verde-floresta: #2f4d2f;
+  --cor-verde-musgo: #44702d;
+  --cor-verde-oliva: #819447;
+  --cor-verde-pistache: #a6b04f;
+  --cor-verde-natural: #546756;
+  --cor-verde-folha: #89a477;
+  --cor-verde-claro: #a4c5af;
+
+  /* Tons de Azul e Gelo */
+  --cor-azul-profundo: #6c81a1;
+  --cor-azul-medio: #96a9c1;
+  --cor-azul-acinzentado: #bbc3d0;
+  --cor-gelo-escuro: #d5d6db;
+  --cor-menta-claro: #cae6d9;
+  --cor-branco-sujo: #f1f6f0;
+    
+
+}
+    
+
+main{
+    height:100vh;
+}
+
+#container-card{
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+
+    background-image:url('/Dia22-04/assets/images/stardewvalleyFundo.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+
+
+.quiz-question{
+display: none;
+}
+.active {
+    display: block;
+}
+#card{
+    position:relative;
+
+    width:700px;
+    min-height:700px;
+    padding:35px 45px;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    text-align:center;
+    color:aliceblue;
+    background-image: url(/Dia22-04/assets/images/Untitled.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border:34px solid transparent;
+}
+
+
+#card h1,
+#card h2,
+#card p{
+    color: var(--cor-terracota);
+    margin-top:10px;
+    margin-bottom:20px;
+    line-height:1.5;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: var();
+}
+
+#card p{
+    margin-top: 20px;
+    font-weight: 700;
+}
+button{
+    width:320px;
+    height:58px;
+    margin-top:22px;
+
+    border:3px solid #5b2c13;
+    background:#ece7df;
+    color:#111;
+
+    cursor:pointer;
+
+    transition:.15s;
+}
+
+button:hover{
+    transform:scale(1.03);
+    background:#fff6d5;
+}
+
+button:active{
+    transform:scale(.98);
+}

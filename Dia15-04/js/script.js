@@ -16,6 +16,7 @@ function darOi(){
 }
 function mensagemParao() {
     title.textContent= "Descubra os segredos";
+    title.style.color = "black"
 }
 function trocaMensagem(){
     title.textContent = "Texto trocado";
@@ -23,6 +24,7 @@ function trocaMensagem(){
 button1.addEventListener('click', trocaCor);
 button1.addEventListener('click', trocaMensagem);
 button2.addEventListener('click',mensagemParao);
+
 
 // Ação = mouseenter, mouseout, click
 // AÇÂO || O QUE VAI ACONTECER
