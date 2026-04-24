@@ -1,0 +1,40 @@
+* {
+    background-color: rgb(255, 255, 255);
+}
+
+.green {
+    background-color: greenyellow;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+    
+    
+}
+.ativo {
+    visibility: hidden;
+    
+
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    background-color: cadetblue;
+    
+}
+img {
+    visibility: visible;
+}
+button {
+    margin-top:  10px;
+    width: 100px;
+    border-radius: 20px ;
+    
+}
