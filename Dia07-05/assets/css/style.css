@@ -87,5 +87,11 @@ header {
     background-color: rgb(255, 255, 98);
     position: sticky;
     top: 0px;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ ul {
+    display: flex;
+    gap: 40px;
  }
