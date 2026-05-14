@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+}
+
+/* Botões */
+.btn {
+    border: none;
+    width: 140px;
+    height: 60px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.777);
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: rgba(108, 178, 221, 0.691);
+    border-radius: 20px;
+    color: white;
+    transform: translateY(5px) scale(1.1) skew(3deg);
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+
+.fade-in {
+    background-color: rgba(128, 128, 128, 0.1);
+    animation: fadeIn 2s ease forwards;
+    padding: 40px;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.box {
+    opacity: 0; /* Começa invisível para o IntersectionObserver funcionar */
+    margin: 20px 0;
+}
+
+.visible {
+    animation: slideIn 1.5s ease forwards;
+}
+
+
+.typing {
+    width: 22ch;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    animation: typing 3s steps(22), piscar 0.5s step-end infinite alternate;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 22ch; }
+}
+
+@keyframes piscar {
+    from { border-color: transparent; }
+    to { border-color: black; }
+}
+
+
+.pulse {
+     animation: pulse 1s infinite;
+ }
+.spin { 
+    animation: spin 2s linear infinite;
+ }
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
